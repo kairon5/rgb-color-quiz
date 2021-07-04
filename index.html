@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>RGB Color Quiz</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="settings">
+            <div class="bigt">Questions</div>
+            <input type="range" max="40" value="10" min="3" id="q-slider" class="slider">
+            <div class="bigt" id="qnum">10</div>
+            <br>
+            <div class="bigt" id="cpq">Colors per Question</div>
+            <input type="range" max="30" value="6" min="2" id="c-slider" class="slider">
+            <div class="bigt" id="cnum">6</div>
+        </div>
+        <button id="done" onclick="startGame();" class="bigt">Done</button>
+        <script src="script.js"></script>
+    </body>
+</html>
