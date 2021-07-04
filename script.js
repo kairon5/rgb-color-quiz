@@ -124,6 +124,7 @@ function showResults() {
     <div class="t">Final Score: ${Math.round(correctAmount/qCount*100)}%</div>
     <br><br><br><br>
     <button class="t" onclick="regenSettings();">Back to Menu</div>
+
     <button class="t" onclick="startGame();">Try Again</div>
     `;
     document.body.appendChild(resultsDiv);

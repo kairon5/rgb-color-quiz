@@ -51,6 +51,13 @@ body {
     left:50%;
     transform:translate(-50%,0%);
 }
+button {
+    margin-bottom:4vh;
+    position:relative;
+    left:50%;
+    display:block;
+    transform:translate(-50%,0%);
+}
 @media (max-width: 1000px) {
     .t {
         font-size: 3vw;
